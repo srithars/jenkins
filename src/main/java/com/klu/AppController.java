@@ -11,7 +11,7 @@ public class AppController {
 	
 	@GetMapping("/add/{a}/{b}")
 	public String add(@PathVariable("a") int a, @PathVariable("b") int b) {
-		return "Addition is:"+ (a+b);
+		return "multiplication is:"+ (a*b);
 	}
 
 }
